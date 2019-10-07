@@ -1,0 +1,84 @@
+<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			background-color: #DBD77D;
+		}
+		.box{
+			background-color: grey;
+			border: 2px solid black;
+			border-radius: 8px;
+
+			}
+			#outer{
+				margin-left: 0px;
+				margin-right: 0px; 
+			}
+			p{
+				clear:right;
+				margin:15px;
+			}
+			h1{
+				text-align: center;
+				font-family: Trebuchet MS;
+				text-shadow: 2px 3px #4790DA;
+				font-size: 1.75em;
+				margin:40px;
+			}
+			
+			.inner{
+				float: right;
+				width:150px;
+				padding: 5px;
+				border-left:1px black solid;
+				border-bottom: 1px black solid;
+				border-radius: 8px;
+				text-align: center;
+				font-weight: bold;
+				font-size: 1.25em;
+			}
+			@media (min-width: 992px ){
+				.box{
+					float:left;
+					margin:1%;
+					width:30%;
+					}
+				}
+			@media (min-width: 768px ) and (max-width: 991px){
+				.box{
+					float:left;
+					margin:1%;
+					}
+				#box1{
+					  width:48%;	
+					}
+				#box2{
+					  
+					  width:48%;	
+					}
+				#box3{
+					  width:98%;	
+					}
+				}
+
+			@media (max-width: 767px ){
+				.box{
+					margin:15px;
+					}
+			}
+			#i1{
+				color:black;
+				background-color: red;
+
+			}
+			#i2{
+				color: green;
+				background-color: yellow;
+
+			}
+			#i3{
+				color:blue;
+				background-color: orange;
+			}
+	</style>
