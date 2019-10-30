@@ -1,0 +1,69 @@
+<style>
+
+	*{}
+	#brand-name{
+	font-family: 'Bowlby One SC', cursive;
+	font-size: 3vw;
+	text-shadow: 2px 2px yellow;
+	}
+	body{
+		background-color: #EFEFEF;
+
+
+	}
+	#navigation{
+		background-color: white !important;
+	}
+	#top{
+		border: 2px solid black;
+	}
+	.collapse.in {
+    display: block;
+}
+#chick-nav-text,#beef-nav-text,#sushi-nav-text{
+	color: black;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+#chick-nav-text,#beef-nav-text{
+	border-bottom: 1px solid black;
+}
+#nav-text:hover{
+	background-color: yellow;
+
+}
+.navbar-toggler{
+	background-color: white;
+}
+#chicken,#beef,#sushi{
+	border:1px solid black;
+	margin-top: 30px;
+	padding:10px;
+	background-color: #DCFE04;
+}
+
+h1{
+	font-family: 'Alegreya Sans', sans-serif;
+	margin-top: 20px;
+}
+@media (min-width: 576px)
+{
+	.visible-xs{
+		display: none;
+	}
+}
+@media (max-width: 768px)
+{
+	#brand-name{
+		font-size: 5vw;
+	}
+}
+@media (max-width:576px){
+	#brand-name{
+		font-size: 6vw;
+	}
+	#navbarNavAltMarkup{
+	border-top: 2px solid black;
+}
+}
+</style>
