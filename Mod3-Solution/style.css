@@ -48,7 +48,7 @@ h1{
 }
 @media (min-width: 768px)
 {
-	.visible-sm{
+	#chick-nav-text,#beef-nav-text,#sushi-nav-text{
 		display: none;
 	}
 }
